@@ -27,7 +27,7 @@ const VersionBar = () => {
       <Button
         variant="subtle"
         as={Link}
-        href="https://v1exchange.pancakeswap.finance/#/migrate"
+        href=""
         endIcon={<HelpIcon color="white" />}
         scale="sm"
         ml="16px"

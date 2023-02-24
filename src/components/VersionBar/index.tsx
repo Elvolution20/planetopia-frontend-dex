@@ -1,6 +1,6 @@
+import { Button, HelpIcon, Link, Text } from '@pancakeswap-libs/uikit'
 import React from 'react'
 import styled from 'styled-components'
-import { Text, ButtonMenu, ButtonMenuItem, Button, HelpIcon, Link } from '@pancakeswap-libs/uikit'
 
 const Wrapper = styled.div`
   position: fixed;
@@ -22,16 +22,8 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        Version:
+        Built By Planetopia Team
       </Text>
-      <ButtonMenu variant="primary" scale="sm" activeIndex={1}>
-        <ButtonMenuItem as="a" href="https://exchange.pancakeswap.finance/">
-          V2
-        </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
-          V1 (old)
-        </ButtonMenuItem>
-      </ButtonMenu>
       <Button
         variant="subtle"
         as={Link}

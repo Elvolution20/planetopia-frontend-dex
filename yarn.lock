@@ -2124,7 +2124,7 @@
 
 "@pancakeswap-libs/uikit@elvolution20/planetopia-uikit":
   version "0.27.1"
-  resolved "https://codeload.github.com/elvolution20/planetopia-uikit/tar.gz/a12a307abf8efb834a0ea702668c500d8843cff0"
+  resolved "https://codeload.github.com/elvolution20/planetopia-uikit/tar.gz/41c272c1cb651d7e0ec43ac8d0596c44b071a9fa"
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
